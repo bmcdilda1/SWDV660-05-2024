@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
    // Send the response body as "Hello World"
-   response.end('Hello SWDV 660\n This is change to trigger \nthe webhook WK 5')
+   response.end('Hello SWDV 660\n Whohoo the trigger is automating \n webhook WK 5')
 }).listen(3333)
 
 // Console will print the message
